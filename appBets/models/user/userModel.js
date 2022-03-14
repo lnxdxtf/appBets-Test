@@ -5,6 +5,11 @@ const SchemaUser = new mongoose.Schema ({
         type: String,
         require: true
     },
+    nickname:{
+        type: String,
+        require: false,
+        
+    },
     gender:{
         type: Boolean,
         require: false

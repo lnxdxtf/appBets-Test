@@ -28,4 +28,5 @@ app.get('/', (req, res) => {
 const userRoutes = require('./routes/api/users/userRoutes')
 app.use('/api/v1/user', userRoutes)
 
+
 app.listen(PORT, ()=>console.log(`App rodando em: http://localhost:${PORT}`))
